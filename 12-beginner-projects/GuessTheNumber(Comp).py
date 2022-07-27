@@ -11,4 +11,3 @@ def guess(x):
             print("Too high.")
     
     print("That is the corect number.")
-

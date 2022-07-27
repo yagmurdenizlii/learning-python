@@ -10,7 +10,6 @@ def get_valid_word(words):
         word = random.choice(words) 
     return word.upper()
 
-
 def hangman():
 
     word = get_valid_word(words)

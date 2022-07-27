@@ -31,8 +31,6 @@ class TicTacToe:
         return len(self.available_moves())
         #we could also say self.board.count('_')
         
-
-
     def make_move(self, square_row, square_column, letter):
         if self.board[square_row][square_column] == '_':
             self.board[square_row][square_column] = letter
@@ -109,8 +107,3 @@ if __name__ == '__main__':
     o_player = RandomComputerPlayer('O')
     t = TicTacToe()
     play(t, x_player, o_player, print_game = True)
-
-
-
-
-

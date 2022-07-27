@@ -18,7 +18,6 @@ class RandomComputerPlayer(Player):
         square = random.choice(game.available_moves())
         return square
 
-
 class HumanPlayer(Player):
     def __init__(self, letter):
         super().__init__(letter)

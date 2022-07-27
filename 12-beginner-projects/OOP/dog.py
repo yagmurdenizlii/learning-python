@@ -30,6 +30,3 @@ print(d.name)
 print(d.get_name())
 
 d.set_age(23)
-
-
-

@@ -25,7 +25,6 @@ def guess(x, y):
         elif(comparison > 0):
             x = guess + 1
 
-
     print("I have guessed correctly!!")
 
 

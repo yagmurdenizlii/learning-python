@@ -14,7 +14,6 @@ def letters_to_gestures(letter):
     }
     return map.get(letter, "nothing")
 
-
 def play(x): 
 
     computer_points = 0

@@ -1,5 +1,4 @@
 
-
 def search(list, number, index):
 
     if len(list) > 1:
